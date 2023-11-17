@@ -12,15 +12,17 @@ function Random() {
 
   return (
     <>
-      <div>
+      <div className="container">
         <div>
-          <h1>Random Generator App</h1>
+          <h1 className="title">Random Generator App</h1>
         </div>
         <div>
-          <h3>{randomNumber}</h3>
+          <h3 className="output">{randomNumber}</h3>
         </div>
         <div>
-          <button onClick={useHandleonClick}>Randomize</button>
+          <button className="button" onClick={useHandleonClick}>
+            Randomize
+          </button>
         </div>
       </div>
     </>
